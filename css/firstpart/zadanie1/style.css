@@ -1,0 +1,86 @@
+body {
+}
+.content {
+    width: 100%;
+}
+.navbar {
+    display: flex;
+    min-height: 50px;
+    background-color: #14247c;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-family: Arial;
+    margin-left: 20px;
+    font-size: 22px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.main {
+    display: flex;
+}
+.login {
+    width: 20%;
+    padding: 20px;
+}
+.login > button {
+    background-color: #016600;
+}
+.login > p > a {
+    text-decoration: none;
+    color:#14247c;
+}
+.feed {
+    padding: 10px;
+    width: 55%;
+}
+.feed > h2 {
+    color: #14247c;
+}
+.feed > img {
+    height: 200px;
+    width: 100%;
+}
+.feed > p > a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.table_info {
+    width: 25%;
+    padding: 40px;
+}
+.table_info > table {
+    border: #202328;
+}
+.table {
+    margin-left:20px ;
+    width: 100%;
+}
+.table >thead {
+    background-color: black;
+    color: white;
+}
+.champion {
+    background-color: #026700;
+    color: white;
+}
+.top-three {
+    background-color: #63f284;
+    color: black;
+}
+.loozers {
+    background-color: #eab0c8;
+    color: black;
+}
+.medium {
+    background-color: #eaede4;
+    color: black;
+}

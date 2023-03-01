@@ -1,0 +1,132 @@
+body {
+
+}
+.content {
+    width: 100%;
+}
+.navbar {
+    display: flex;
+    min-height: 50px;
+    background-color: #84000e;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.login {
+    margin-left: 20px;
+    font-family: Arial;
+    font-size: 24px;
+    color: white;
+}
+.navbar a {
+    color: #c55264;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.main {
+    display: flex;
+    background-color: #addbdb;
+}
+.main > img {
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+}
+.main > h2 {
+    color: #092e2f;
+}
+.news > p {
+    font-size: 20px;
+}
+.end {
+    display: flex;
+    gap:15px;
+}
+.end > h2 {
+    text-align: center;
+}
+.hazard {
+    width: 25%;
+    border-style: inset;
+}
+.hazard > img {
+    width: 337px;
+    height: 200px;
+}
+.hazard > h3 {
+    margin-left: 10px;
+}
+.hazard > p {
+    margin-left: 10px;
+}
+.hazard > button {
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: darkred;
+}
+.alvaro {
+    width: 25%;
+    border-style: inset;
+}
+.alvaro > img {
+    width: 337px;
+    height: 200px;
+}
+.alvaro > h3 {
+    margin-left: 10px;
+}
+.alvaro > p {
+    margin-left: 10px;
+}
+.alvaro > button {
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: darkred;
+}
+.canelo {
+    width: 25%;
+    border-style: inset;
+}
+.canelo > img {
+    width: 337px;
+    height: 200px;
+}
+.canelo > p {
+    margin-left: 10px;
+}
+.canelo > h3 {
+    margin-left: 10px;
+}
+.canelo > button {
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: darkred;
+}
+.max {
+    width: 25%;
+    border-style: inset;
+}
+.max > img {
+    width: 337px;
+    height: 200px;
+}
+.max > p {
+    margin-left: 10px;
+}
+.max > h3 {
+    margin-left: 10px;
+}
+.max > button {
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: darkred;
+}
+.content > h2 {
+    text-align: center;
+}
