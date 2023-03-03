@@ -33,7 +33,6 @@ body {
     display: flex;
 }
 .panel {
-    width: 30%;
     display: block;
     margin-left: 90px;
     margin-top: 10px;
@@ -43,4 +42,27 @@ body {
     margin-top: 10px;
     color: cornflowerblue;
     text-decoration: none;
+}
+.title {
+    margin-left: 70px;
+    padding: 20px;
+}
+.ava {
+    width: 220px;
+    height: 300px;
+    background-color: white;
+    justify-content: center;
+    display: block;
+}
+.ava > img {
+    width: 200px;
+    height: 240px;
+    margin: 11px;
+}
+.ava > button {
+    margin-left: 11px;
+    border: none;
+    width: 200px;
+    background-color: gray;
+    color: white;
 }
