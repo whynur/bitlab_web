@@ -1,0 +1,52 @@
+.content {
+    padding: 10px;
+}
+.card {
+    display: flex;
+    gap:20px;
+    margin-bottom: 30px;
+}
+.card > p {
+    margin: 0px;
+    padding: 0px;
+}
+.card > input {
+    border: 1px solid black;
+    width: 60px;
+}
+.t {
+    margin-left: 100px;
+}
+.name {
+    display: flex;
+    gap:20px;
+    margin-bottom: 30px;
+}
+.name > p {
+     margin: 0px;
+     padding: 0px;
+ }
+.name > input {
+    border: 1px solid black;
+    width: 200px;
+    margin-left: 34px;
+}
+.cvv {
+    display: flex;
+    gap:20px;
+}
+.cvv > p {
+     margin: 0px;
+     padding: 0px;
+ }
+.cvv > input {
+    border: 1px solid black;
+    width: 200px;
+    margin-left: 130px;
+}
+.btn > button {
+    background-color: #4f76a1;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}

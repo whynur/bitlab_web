@@ -1,0 +1,19 @@
+.content {
+    padding: 10px;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.btn > button {
+    background-color: black;
+    color: white;
+    border: none;
+}

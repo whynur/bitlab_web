@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+<div class="content">
+    <div class="card">
+        <table cellpadding="10px">
+            <tr><p>CARD:</p></tr>
+            <div class="t">
+                <tr><input type="number" min="1000" max="9999" id="card1"></tr>
+                <tr><input type="number" min="1000" max="9999" id="card2"></tr>
+                <tr><input type="number" min="1000" max="9999" id="card3"></tr>
+                <tr><input type="number" min="1000" max="9999" id="card4"></tr>
+            </div>
+        </table>
+
+    </div>
+    <div class="name">
+        <table>
+            <tr><p>NAME SURNAME:</p></tr>
+            <tr><input type="text" id="name"></tr>
+        </table>
+    </div>
+
+    <div class="cvv">
+        <table>
+            <tr><p>CVV:</p></tr>
+            <tr><input type="password" id="cvv"></tr>
+        </table>
+    </div>
+    <div class="btn">
+        <button onclick="check()">COMPLETE</button>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

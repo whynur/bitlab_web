@@ -52,8 +52,7 @@ body {
     border-style: inset;
 }
 .hazard > img {
-    width: 337px;
-    height: 200px;
+    width: 100%;
 }
 .hazard > h3 {
     margin-left: 10px;
@@ -66,67 +65,4 @@ body {
     margin-left: 10px;
     margin-bottom: 10px;
     background-color: darkred;
-}
-.alvaro {
-    width: 25%;
-    border-style: inset;
-}
-.alvaro > img {
-    width: 337px;
-    height: 200px;
-}
-.alvaro > h3 {
-    margin-left: 10px;
-}
-.alvaro > p {
-    margin-left: 10px;
-}
-.alvaro > button {
-    color: white;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    background-color: darkred;
-}
-.canelo {
-    width: 25%;
-    border-style: inset;
-}
-.canelo > img {
-    width: 337px;
-    height: 200px;
-}
-.canelo > p {
-    margin-left: 10px;
-}
-.canelo > h3 {
-    margin-left: 10px;
-}
-.canelo > button {
-    color: white;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    background-color: darkred;
-}
-.max {
-    width: 25%;
-    border-style: inset;
-}
-.max > img {
-    width: 337px;
-    height: 200px;
-}
-.max > p {
-    margin-left: 10px;
-}
-.max > h3 {
-    margin-left: 10px;
-}
-.max > button {
-    color: white;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    background-color: darkred;
-}
-.content > h2 {
-    text-align: center;
 }

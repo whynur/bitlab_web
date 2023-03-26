@@ -1,0 +1,19 @@
+.content {
+    margin: 20px;
+}
+.email > input {
+    border: 1px solid gray;
+    width: 320px;
+    margin-top: 5px;
+}
+.email > p {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 15px;
+}
+.content > button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px;
+}

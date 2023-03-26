@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+<div class="content">
+
+    <div class="email" id="email">
+    <p>Email:</p>
+    <input type="text" id="email_input">
+        <p id = "emailMessage" style="display: none; color: red">Current email is already in use</p>
+</div>
+
+    <div class="email" id="password">
+    <p>Password:</p>
+    <input type="password" id="password_input">
+        <p id = "passwordMessage" style="display: none; color: red">Password length at least must be 6 symbols</p>
+</div>
+
+    <div class="email" id="ret_password">
+    <p>Retype Password:</p>
+    <input type="password">
+        <p id = "retpasMessage"></p>
+</div>
+    <br>
+    <button onclick="addUser()">REGISTER</button>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

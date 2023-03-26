@@ -1,0 +1,16 @@
+.content {
+
+}
+.input {
+    border: 1px solid black;
+}
+.select {
+    width: 150px;
+    border: 1px solid black;
+}
+.btn {
+    margin-left: 10px;
+}
+.btn > button {
+    padding: 8px;
+}

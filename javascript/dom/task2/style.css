@@ -1,0 +1,11 @@
+.content {
+    display: flex;
+    gap:30px;
+    padding: 20px;
+}
+.content > button {
+    background-color: #4f76a1;
+    color: white;
+    border:none;
+    width: 70px;
+}

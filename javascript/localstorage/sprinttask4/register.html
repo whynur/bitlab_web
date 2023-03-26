@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main">
+    <div class="navbar">
+        <h3>TWITTER</h3>
+        <div class="links">
+            <h4><a href="#">Tweets</a></h4>
+            <h4><a href="login.html">Login</a></h4>
+            <h4><a href="#">Register</a></h4>
+        </div>
+    </div>
+
+    <div class="content">
+        <p>EMAIL:</p>
+        <input type="text" id="email">
+        <p>PASSWORD:</p>
+        <input type="password" id="password">
+        <p>FULL NAME:</p>
+        <input type="text" id="fullname">
+        <p>COUNTRY:</p>
+        <select id="country">
+            <option value="1">Kazakhstan</option>
+            <option value="2">Russia</option>
+            <option value="3">USA</option>
+            <option value="4">China</option>
+        </select>
+        <p>BIRTHDATE</p>
+        <input type="date" id="birthday">
+        <div class="btn">
+        <button onclick="addUser()">REGISTER</button>
+        </div>
+
+    </div>
+</div>
+<script>
+    let usersArray = [];
+
+    function addUser(){
+        let newUser = {};
+        newUser.email = email.value;
+        newUser.password = password.value;
+        newUser.fullname = fullname.value;
+        newUser.country = country.value;
+        newUser.birthday = birthday.value;
+
+        usersArray.push(newUser);
+
+        updateStorage();
+    }
+
+    function updateStorage(){
+        localStorage.users = JSON.stringify(usersArray);
+    }
+</script>
+</body>
+</html>

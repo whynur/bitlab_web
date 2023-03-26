@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main">
+   <div class="navbar">
+       <h3>TWITTER</h3>
+       <div class="links">
+           <h4><a href="#">Tweets</a></h4>
+           <h4><a id="loginName">Login</a></h4>
+           <h4><a href="register.html">Logout</a></h4>
+       </div>
+   </div>
+
+    <div class="content">
+        <div id="welcomeLog">
+            <b id="loginFullName"></b>
+        </div>
+        <br>
+        <p>EMAIL:
+            <br>
+        </p>
+        <b id="logEmail">
+
+        </b>
+        <p>PASSWORD:
+            <br>
+        </p>
+        <b id="logPassword">
+
+        </b>
+        <p>FULL NAME:
+            <br>
+        </p>
+        <b id="logFName">
+
+        </b>
+        <p>COUNTRY:
+            <br>
+        </p>
+        <b id="logCountry">
+
+        </b>
+        <p>BIRTHDATE:
+            <br>
+        </p>
+        <b id="logBirt">
+
+        </b>
+    </div>
+</div>
+<script>
+    let usersArray = [];
+    if(localStorage.users != null){
+        usersArray = JSON.parse(localStorage.users);
+    }
+
+    const uIndex = +localStorage.getItem('userIndex')
+    loginName.innerHTML = usersArray[uIndex].fullname;
+    logEmail.innerHTML = usersArray[uIndex].email;
+    logPassword.innerHTML = usersArray[uIndex].password;
+    logFName.innerHTML = usersArray[uIndex].fullname;
+    logCountry.innerHTML = usersArray[uIndex].country;
+    logBirt.innerHTML = usersArray[uIndex].birthday;
+    loginFullName.innerHTML = "Welcome " + usersArray[uIndex].fullname;
+</script>
+</body>
+</html>

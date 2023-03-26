@@ -1,0 +1,41 @@
+.main {
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+.sum {
+
+}
+.sum > p {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 7px;
+}
+.input > input {
+    border: 1px solid gray;
+    height: 20px;
+}
+.input > select {
+    width:120px;
+    border: 1px solid gray;
+    margin-left: 6px;
+}
+.money {
+
+}
+.money > p {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+.money > input {
+    border: 1px solid gray;
+    background-color: #e8ecef;
+    height: 20px;
+    width: 150px;
+}
+.content {
+    display: flex;
+    gap: 15px;
+}

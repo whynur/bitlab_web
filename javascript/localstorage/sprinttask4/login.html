@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main">
+    <div class="navbar">
+        <h3>TWITTER</h3>
+        <div class="links">
+            <h4><a href="#">Tweets</a></h4>
+            <h4><a href="#">Login</a></h4>
+            <h4><a href="register.html">Register</a></h4>
+        </div>
+    </div>
+
+    <div class="content">
+        <p>EMAIL:</p>
+        <input type="text" id="checkEmail">
+        <p>PASSWORD:</p>
+        <input type="password" id="checkPassword">
+
+
+        <div class="btn">
+            <button onclick="checkUser()">SIGN IN</button>
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+    let usersArray = [];
+    let uIndex;
+    function checkUser(){
+        if(localStorage.users != null){
+            usersArray = JSON.parse(localStorage.users);
+        }
+        for(let i = 0; i < usersArray.length; i++){
+            if(usersArray[i].email == checkEmail.value && usersArray[i].password == checkPassword.value){
+                uIndex = i;
+                alert('Welcome: ' + usersArray[i].fullname);
+                updateUserIndex();
+                window.location.href = 'index.html';
+            }else{
+                alert('Not correct user name or password');
+            }
+        }
+    }
+    function updateUserIndex(){
+        localStorage.setItem('userIndex', uIndex);
+    }
+</script>
+</body>
+</html>
